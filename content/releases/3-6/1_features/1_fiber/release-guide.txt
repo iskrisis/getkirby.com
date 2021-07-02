@@ -161,20 +161,20 @@ Kirby::plugin('yourname/todos', [
                 // Vue component. It's a super convenient way
                 // to send backend data to the Panel
                 'props' => [
-                  'todos' => [...]
+                  'todos' => []
                 ],
 
                 // we can preset the search type with the
                 // search attribute
                 'search' => 'pages'
-              ]
+              ];
             }
           ]
         ]
-      ]
+      ];
     }
   ]
-])
+]);
 ```
 
 ```js
